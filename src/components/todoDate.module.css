@@ -1,0 +1,26 @@
+.date{
+    display: flex;
+    flex-direction: column;
+    width: 5.5rem;
+    height: 5.5rem;
+    border:1px solid #ececec;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #2a2a2a;
+    margin:0px;
+    padding: 2px;
+}
+.date h3{
+    font-size: 1rem;
+    font-weight: bold;
+    margin:0px;
+    padding: 0px;
+}
+
+.date h4{
+    font-size: 1.8rem;
+    margin:0px;
+    padding: 0px;
+}

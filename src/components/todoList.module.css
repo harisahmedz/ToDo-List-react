@@ -1,0 +1,57 @@
+.Container{
+    max-width: 95%;
+    width: 50rem;
+    margin:2rem auto;
+
+}
+.List{
+    display: flex;
+    background-color: rgb(26, 25, 25);
+    /* border-radius: 0px 0px 12px 12px; */
+    border-bottom: 3px solid black;
+    color:white;
+    padding: 1rem;
+    margin:0rem 1rem;
+    flex-direction: row;
+    align-items: center;
+    order: 3;
+}
+.List h2{
+    padding: 0.0rem 0rem 0rem 1rem;
+    flex-grow: 2;
+}
+.IconTrash{
+    font-size: 1.8rem;
+    background: none;
+    border-style:none;
+    color:white;
+}
+.Heading{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin:0rem 1rem;
+    margin-top: 1rem;
+    background-color: rgb(10, 10, 10);
+    border-radius: 12px 12px 0px 0px ;
+    order: 3;
+    align-items: center;
+}
+.Heading h1{
+    flex-grow: 2;
+    margin:0;
+    padding: 0;
+    padding: 0.0rem 0rem 0rem 1.2rem;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    
+}
+.Heading h2{
+    margin:0;
+    padding: 0;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}

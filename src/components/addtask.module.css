@@ -1,0 +1,78 @@
+/* Style the header */
+.header {
+    background-color: rgb(26, 25, 25);
+    padding: 0px 00px 30px 0px;
+    color: white;
+    text-align: center;
+    width:48rem;
+    max-width: 95%;
+    margin:1rem auto;
+    border-top-left-radius:12px ;
+    border-top-right-radius:12px ;
+
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header h2{
+      margin:0px;
+      margin-bottom: 20px;
+      padding:10px;
+      background-color: black;
+      border-top-left-radius:12px ;
+      border-top-right-radius:12px ;
+  }
+  
+  /* Style the input */
+  input[type=text]{
+
+    margin: 0;
+    border:none;
+    border-right:2px solid black ;
+    width: 45%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    border-radius:12px 0px 0px 12px;
+  }
+  input[type=date]{
+    border: none;
+    margin: 0;  
+    border-radius: 0;
+    width: 25%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    height: 18px;
+  }
+  
+  /* Style the "Add" button */
+  .addBtn {
+    padding: 10px;
+    width: 20%;
+    background: black;
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+    border-style: none;
+    border-radius:0 12px 12px 0px;
+  }
+  
+  .addBtn:hover {
+    background-color: #bbb;
+  }
+  .InputStyle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+  }
